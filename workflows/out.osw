@@ -1,0 +1,28 @@
+{
+   "completed_at" : "20190923T204650Z",
+   "completed_status" : "Success",
+   "current_step" : 0,
+   "hash" : "0EDDBB4A",
+   "root" : "../",
+   "run_directory" : "run",
+   "seed_file" : "MediumOffice_2.osm",
+   "started_at" : "20190923T204643Z",
+   "steps" : [
+      {
+         "arguments" : {},
+         "measure_dir_name" : "measures/create_doe_prototype_building_copy"
+      },
+      {
+         "arguments" : {},
+         "measure_dir_name" : "measures/add_hourly_meters_copy"
+      },
+      {
+         "arguments" : {
+            "variable_name" : "a"
+         },
+         "measure_dir_name" : "measures/modify_output_variables"
+      }
+   ],
+   "updated_at" : "20190923T204650Z",
+   "weather_file" : "weather_files/2008_weather.epw"
+}

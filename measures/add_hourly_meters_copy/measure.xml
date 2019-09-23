@@ -1,0 +1,59 @@
+<measure>
+  <schema_version>3.0</schema_version>
+  <name>add_hourly_meters_copy</name>
+  <uid>13cd7162-40fc-4abe-b377-4cd9033e1feb</uid>
+  <version_id>7bae3792-5ad4-4505-bd08-1cfdaa0d3e4a</version_id>
+  <version_modified>20190828T194301Z</version_modified>
+  <xml_checksum>9E530B22</xml_checksum>
+  <class_name>AddHourlyMetersCopy</class_name>
+  <display_name>Add Hourly Meters Copy</display_name>
+  <description>This measure adds hourly meters for the most common energy use types.</description>
+  <modeler_description>This measure adds these Output:Meter electricity and gas objects: Electricity:Facility,ExteriorLights:Electricity,InteriorLights:Electricity,InteriorEquipment:Electricity,ExteriorEquipment:Electricity,Fans:Electricity,Pumps:Electricity,Heating:Electricity,Cooling:Electricity,HeatRejection:Electricity,Humidifer:Electricity,HeatRecovery:Electricity,WaterSystems:Electricity,Cogeneration:Electricity,Gas:Facility,InteriorEquipment:Gas,ExteriorEquipment:Gas,Heating:Gas,Cooling:Gas,WaterSystems:Gas,Cogeneration:Gas</modeler_description>
+  <arguments/>
+  <outputs/>
+  <provenances/>
+  <tags>
+    <tag>Reporting.QAQC</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Function</name>
+      <value>Measure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Requires EnergyPlus Results</name>
+      <value>false</value>
+      <datatype>boolean</datatype>
+    </attribute>
+    <attribute>
+      <name>Uses SketchUp API</name>
+      <value>false</value>
+      <datatype>boolean</datatype>
+    </attribute>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>AddHourlyMeters_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>FD297787</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.4.0</identifier>
+        <min_compatible>2.4.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>8235C7EF</checksum>
+    </file>
+  </files>
+</measure>

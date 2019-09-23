@@ -1,0 +1,1 @@
+{"root":"../","run_directory":"run","seed_file":"MediumOffice_2.osm","weather_file":"weather_files/2009_weather.epw","steps":[{"measure_dir_name":"measures/create_doe_prototype_building_copy","arguments":{}},{"measure_dir_name":"measures/add_hourly_meters_copy","arguments":{}},{"measure_dir_name":"measures/modify_output_variables","arguments":{"variable_name":"a"}}]}

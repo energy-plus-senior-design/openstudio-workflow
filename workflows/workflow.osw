@@ -1,0 +1,22 @@
+{
+  "root": "../",
+  "run_directory": "run",
+  "seed_file": "MediumOffice_2.osm",
+  "weather_file": "USA_TX_Austin.722540_TMY2.epw",
+  "steps": [
+    {
+      "measure_dir_name": "measures/create_doe_prototype_building_copy",
+      "arguments": {}
+    },
+    {
+      "measure_dir_name": "measures/add_hourly_meters_copy",
+      "arguments": {}
+    },
+    {
+      "measure_dir_name": "measures/modify_output_variables",
+      "arguments": {
+        "variable_name": "a"
+      }
+    }
+  ]
+}
