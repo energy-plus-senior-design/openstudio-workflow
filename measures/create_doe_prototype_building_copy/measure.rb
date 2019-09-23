@@ -36,7 +36,7 @@ class CreateDOEPrototypeBuildingCopy < OpenStudio::Measure::ModelMeasure
     building_type_chs << 'MidriseApartment'
     building_type_chs << 'HighriseApartment'
     building_type_chs << 'Hospital'
-    building_type_chs << 'Outpatient'
+    # building_type_chs << 'Outpatient'
     building_type = OpenStudio::Measure::OSArgument.makeChoiceArgument('building_type', building_type_chs, true)
     building_type.setDisplayName('Building Type.')
     building_type.setDefaultValue('SmallOffice')
@@ -111,10 +111,7 @@ class CreateDOEPrototypeBuildingCopy < OpenStudio::Measure::ModelMeasure
     climate_zone = runner.getStringArgumentValue('climate_zone', user_arguments)
     # epw_file = runner.getStringArgumentValue('epw_file', user_arguments)
 
-    openstudio_path = Pathname.new("C:/openstudio-2.7.0/bin")
-    working_path = Pathname.new(openstudio_path + "OpenStudioWorkflow")
-    weather_path = Pathname.new(working_path + "weather_files")
-    epw_file = weather_path
+    epw_file = "2008_weather"
 
     # Turn debugging output on/off
     @debug = false

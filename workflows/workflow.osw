@@ -1,7 +1,7 @@
 {
   "root": "../",
   "run_directory": "run",
-  "seed_file": "MediumOffice_2.osm",
+  "seed_file": "blank.osm",
   "weather_file": "USA_TX_Austin.722540_TMY2.epw",
   "steps": [
     {

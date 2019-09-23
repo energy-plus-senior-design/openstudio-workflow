@@ -78,10 +78,6 @@
           <value>Hospital</value>
           <display_name>Hospital</display_name>
         </choice>
-        <choice>
-          <value>Outpatient</value>
-          <display_name>Outpatient</display_name>
-        </choice>
       </choices>
     </argument>
     <argument>
