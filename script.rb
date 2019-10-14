@@ -18,7 +18,8 @@ for i in Dir.glob(weather_path+'*.epw')
     File.open(workflow_name, 'w') {
         |file| file.write(json)
     }
-    run_cmd = "openstudio run --workflow #{workflow_name}"
+    # run_cmd = "openstudio --bundle_path /home/rohan/Documents/openstudio-workflow/bundle/ run --workflow #{workflow_name}"
+    run_cmd = "openstudio --bundle_path /home/rohan/Documents/openstudio-workflow/bundle/ run --workflow #{workflow_name}"
 
     puts run_cmd
     system("#{run_cmd}")
